@@ -1,0 +1,44 @@
+.col-3{
+    position: absolute;
+    width: 330px;
+    height: max-content;
+    left: 21px;
+    top: 23px;
+    background: #37afd4;
+  border-radius: 12px;
+  display: flex;
+}
+#logo{
+  margin-top: 20px;
+  margin-left:0px ;
+}
+ul,li{
+  text-decoration: none;
+  list-style: none;
+  margin-left: 20px;
+}
+    
+  
+  
+  h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    
+    padding: 19px;
+    text-decoration: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+
+  }
+  
