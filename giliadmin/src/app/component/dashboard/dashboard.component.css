@@ -1,3 +1,6 @@
+.row{
+    margin-right: 21px;
+}
 .col{
     box-sizing: border-box;
 
@@ -7,7 +10,7 @@ margin-top: 30px;
 height: 119vh;
 
 background: #FFFFFF;
-border: 1px solid rgba(185, 185, 185, 0.5);
+border: 1px  solid transparent;
 border-radius: 20px;
 }
 .col-6{
@@ -39,6 +42,6 @@ iframe{
     padding: 10px;
 }
 .seconddiv{
-   margin-top: 80px;
-   margin-bottom: 80px;
+   
+   
 }
