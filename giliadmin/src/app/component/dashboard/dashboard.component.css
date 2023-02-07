@@ -1,12 +1,13 @@
 .row{
     margin-right: 21px;
+    top: 18px;
 }
 .col{
     box-sizing: border-box;
 
 
 margin-left: 390px;
-margin-top: 30px;
+margin-top: 23px;
 height: 119vh;
 
 background: #FFFFFF;
@@ -19,6 +20,13 @@ margin-top: 32px;
 
 }
 
+.notificationContainer{
+    
+    
+    position: fixed;
+   
+    
+}
 
 img{
     margin-top: 10px;
@@ -30,6 +38,7 @@ img{
  
 
     margin-top: 30px;
+    
 
 }
 
@@ -40,8 +49,4 @@ iframe{
     border: 1px solid rgba(185, 185, 185, 0.5);
     border-radius: 20px;
     padding: 10px;
-}
-.seconddiv{
-   
-   
 }
