@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./policy.component.css']
 })
 export class PolicyComponent {
-
+  
+ 
+  
+  
+  
 }
