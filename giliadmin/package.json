@@ -18,7 +18,11 @@
     "@angular/platform-browser": "^15.0.0",
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
+    "mixpanel": "^0.17.0",
+    "net-browserify": "^0.1.4",
+    "ngx-mixpanel": "^0.9.3",
     "rxjs": "~7.5.0",
+    "tls-browserify": "^0.2.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
@@ -29,12 +33,14 @@
     "@types/jasmine": "~4.3.0",
     "@types/mixpanel-browser": "^2.38.1",
     "angular-cli-ghpages": "^1.0.5",
+    "https-browserify": "^1.0.0",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "node-libs-browser": "^2.2.1",
     "typescript": "~4.8.2"
   }
 }
