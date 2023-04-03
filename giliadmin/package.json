@@ -18,10 +18,12 @@
     "@angular/platform-browser": "^15.0.0",
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
-    "mixpanel": "^0.17.0",
+    "mixpanel-browser": "^2.46.0",
     "net-browserify": "^0.1.4",
     "ngx-mixpanel": "^0.9.3",
+    "node-polyfill-webpack-plugin": "^2.0.1",
     "rxjs": "~7.5.0",
+    "stream-http": "^3.2.0",
     "tls-browserify": "^0.2.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"

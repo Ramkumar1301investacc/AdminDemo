@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import mixpanel from 'mixpanel-browser';
+import { MixpanelServiceService } from 'src/app/mixpanel-service.service';
 
 
 
@@ -11,12 +12,12 @@ import mixpanel from 'mixpanel-browser';
 })
 
 export class SidenavbarComponent {
-  ngOnInit() {
-    mixpanel.init("11b25c9684cd81a697eb5776a555af3e");
-  }
+   constructor(private mixpanelService : MixpanelServiceService){
+    mixpanel.init('11b25c9684cd81a697eb5776a555af3e');
+   }
   
-  onStoryboardClick() {
-    mixpanel.track("Storyboard Clicked");
+   onStoryboardClick() {
+    this.mixpanelService.track("Storyboard Clicked");
     console.log('storyboardclicked')
   }
 }
