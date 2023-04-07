@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidenavbarComponent } from './component/sidenavbar/sidenavbar.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
-
+import { Meta } from '@angular/platform-browser';
 
 
 
