@@ -13,5 +13,5 @@ export class MixpanelServiceService {
 }
 track(id: string, action: any = {}): void {
   mixpanel.track(id, action);
-  }
+  }   
 }
